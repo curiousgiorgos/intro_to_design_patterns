@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.design.patterns.strategy</groupId>
+        <groupId>org.design.patterns.strategy</groupId>
         <artifactId>strategy</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -17,7 +17,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.design.patterns.strategy</groupId>
+            <groupId>org.design.patterns.strategy</groupId>
             <artifactId>strategy-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -30,7 +30,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>org.design.patterns.strategy.DuckService</mainClass>
+                    <mainClass>org.design.patterns.strategy.service.DuckService</mainClass>
                 </configuration>
             </plugin>
         </plugins>
