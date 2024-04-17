@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.design.patterns.observer</groupId>
-        <artifactId>observer</artifactId>
+        <groupId>org.design.patterns.decorator</groupId>
+        <artifactId>decorator</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>observer-service</artifactId>
+    <artifactId>decorator-service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Observer Pattern Service</name>
+    <name>Decorator Pattern Service</name>
 
     <dependencies>
         <dependency>
-            <groupId>org.design.patterns.observer</groupId>
-            <artifactId>observer-api</artifactId>
+            <groupId>org.design.patterns.decorator</groupId>
+            <artifactId>decorator-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
@@ -29,7 +29,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>main.java.org.design.patterns.decorator.service.Main</mainClass>
+                    <mainClass>org.design.patterns.decorator.service.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>
